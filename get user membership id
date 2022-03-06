@@ -1,0 +1,6 @@
+$user_dataa = getUser($_COOKIE['userid'],$w);
+//print_r($user_dataa['subscription_id']);
+
+if($user_dataa['subscription_id'] == '1') {
+	//do something
+}
